@@ -7,17 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Teams</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,400;1,700&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cabin&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@600&display=swap');
-        /* .sidebar {
-            position: absolute;
-            top: 281px;
-            left: -7px;
-        } */
-        
         nav {
             position: relative;
             width: 145%;
@@ -58,7 +52,7 @@
             bottom: 40px;
             font-size: 35px;
             font-family: 'Archivo Black', sans-serif;
-            color: white;
+            color: #ffffff;
         }
         
         a {
@@ -69,7 +63,10 @@
             border-collapse: separate;
             border-width: thick;
             border-radius: 12px;
+            background-color: rgba(128, 0, 0, 0.9);
+            transition: all 1s ease;
             opacity: 0.5;
+            transition: 0.3s;
             overflow: hidden;
             width: 106px;
             height: 50px;
@@ -81,13 +78,15 @@
         }
         
         a:hover {
-            background-color: whitesmoke;
+            background-color: rgba(128, 0, 0, 0.9);
+            opacity: 0.5;
+            transition: all 1s ease;
         }
         
         h3 {
             position: relative;
             font-family: 'Noto Sans', sans-serif;
-            color: #ffffff;
+            color: rgb(60, 140, 206, 0.8);
             bottom: 7px;
         }
         
@@ -159,20 +158,27 @@
         }
         
         th {
-            background-color: #787D33;
+            background-color: rgb(125, 125, 51);
+            opacity: 0.8;
             border-radius: 9px;
+        }
+        
+        th:hover {
+            background-color: rgba(128, 0, 0, 0.9);
+            opacity: 0.6;
+            transition: ease 1s all;
         }
         
         td {
             border-collapse: separate;
             padding: 6px;
-            background-color: #ACDD93;
+            background-color: rgb(172, 221, 147);
             border-radius: 5px;
         }
         
         table {
             border-collapse: separate;
-            border-spacing: 7px 3px;
+            border-spacing: 10px 13px;
             position: relative;
             bottom: 32px;
             border-radius: 1%;
@@ -229,7 +235,7 @@
             bottom: 40px;
             font-size: 35px;
             font-family: 'Archivo Black', sans-serif;
-            color: white;
+            color: #ffffff;
         }
         
         a {
@@ -264,7 +270,7 @@
         }
         
         a:hover {
-            background-color: whitesmoke;
+            background-color: rgb(60, 140, 206, 0.8)
         }
         
         h3 {
@@ -281,10 +287,10 @@
             top: 312px;
             z-index: 1;
             left: -7px;
-            background-color: #787D33;
+            background-color: rgb(125, 125, 51);
             overflow: hidden;
             padding-top: 520px;
-            border: 2px solid black;
+            border: 2px solid #000000;
         }
         
         .sidebar a {
@@ -344,13 +350,13 @@
         p {
             position: absolute;
             font-family: 'Noto Sans', sans-serif;
-            bottom: 877px;
+            bottom: 870px;
         }
         
         table {
             margin: 1px;
             padding: 1px 1px 1px 1px;
-            border-spacing: 10px 15px;
+            border-spacing: 10px 13px;
             bottom: -135px;
         }
         
@@ -360,21 +366,26 @@
         }
         
         th {
-            background-color: #787D33;
+            background-color: rgb(125, 125, 51);
             border-radius: 7px;
             width: 500px;
             height: 70px;
             text-align: center;
-            border: 1px solid black;
+            border: 1px solid #000000;
             padding: 5px;
-            color: white;
-            border-bottom: 8px solid #ACDD93;
+            color: #ffffff;
+            border-bottom: 8px solid rgb(172, 221, 147);
         }
         
         td {
             padding: 13px;
             margin-bottom: 1rem;
             border-radius: 5px;
+        }
+        
+        td:hover {
+            background-color: rgba(57, 63, 68, 0%);
+            transition: ease 1s all;
         }
         
         tr {
